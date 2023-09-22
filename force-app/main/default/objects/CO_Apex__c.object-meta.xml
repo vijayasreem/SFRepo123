@@ -1,0 +1,2 @@
+User Story:
+As a developer, I need to create custom objects for Verification/Validation/Disbursement in Salesforce, with nameField and mandatory fields for all used in the given Apex Class. This will allow us to automate the process of verifying, validating, and disbursing payments.

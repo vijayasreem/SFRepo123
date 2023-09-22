@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<ApexClass xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>44.0</apiVersion>
+    <status>Active</status>
+    <description>Verification/Validation/Disbursement</description>
+    <label>VerificationValidationDisbursement</label>
+    <userStory>As a senior developer, I want to add methods to verify documents, validate credit evaluation, check customer age, check credit score, and process disbursement so that the loan application can be approved with specific terms and conditions.</userStory>
+    <acceptanceCriteria>
+        <item>The file format should be either PDF or JPEG, and an invalid file exception should be thrown if it is not</item>
+        <item>The customer's income should be above 100000 for salaried employees</item>
+        <item>The customer's age should be between 18 and 65</item>
+        <item>The credit score should be above 600</item>
+        <item>The vendor's bank account number and routing number should both be nine characters in length</item>
+        <item>The available balance should be greater than or equal to the payment amount</item>
+        <item>Payments equal to or less than $1000.0 should be automatically approved</item>
+        <item>The system should display a message indicating the successful disbursement process, including the vendor's name and the payment amount</item>
+        <item>The system should display a message indicating that the vendor information is invalid if verification fails</item>
+        <item>The system should display a message indicating the lack of funds if there are insufficient funds for disbursement</item>
+        <item>The system should prompt for payment approval if payment approval is required and not granted</item>
+    </acceptanceCriteria>
+</ApexClass>

@@ -1,0 +1,90 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ApexClass xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>50.0</apiVersion>
+    <status>Active</status>
+    <packageVersions>
+        <majorNumber>1</majorNumber>
+    </packageVersions>
+    <description>Apex class for implementing the Subsequent Adjustment Approval Workflow for Checkers.</description>
+    <label>Subsequent Adjustment Approval</label>
+    <isTest>false</isTest>
+    <runTests>None</runTests>
+    <visibility>Public</visibility>
+    <webLinks>
+        <description>View Subsequent Adjustments</description>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>true</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>true</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>View Subsequent Adjustments</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>true</showsLocation>
+        <showsStatus>true</showsStatus>
+        <url>/apex/SubsequentAdjustmentsPage</url>
+        <width>800</width>
+    </webLinks>
+    <webLinks>
+        <description>Approve Subsequent Adjustment</description>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>true</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>true</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Approve Subsequent Adjustment</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>true</showsLocation>
+        <showsStatus>true</showsStatus>
+        <url>/apex/ApproveSubsequentAdjustmentPage</url>
+        <width>800</width>
+    </webLinks>
+    <webLinks>
+        <description>Reject Subsequent Adjustment</description>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>true</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>true</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Reject Subsequent Adjustment</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>true</showsLocation>
+        <showsStatus>true</showsStatus>
+        <url>/apex/RejectSubsequentAdjustmentPage</url>
+        <width>800</width>
+    </webLinks>
+    <webLinks>
+        <description>Send Subsequent Adjustment Back for Revision</description>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>true</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>true</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Send Subsequent Adjustment Back</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>true</showsLocation>
+        <showsStatus>true</showsStatus>
+        <url>/apex/SendSubsequentAdjustmentBackPage</url>
+        <width>800</width>
+    </webLinks>
+</ApexClass>
